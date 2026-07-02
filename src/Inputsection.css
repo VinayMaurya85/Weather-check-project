@@ -1,0 +1,28 @@
+input{
+    width:  70%;
+    border-radius: 8px;
+ font-size: large;
+  
+ height:40px;
+ padding-left: 10px;
+}
+button{
+   height: 45px;  
+    border-radius: 8px;
+     font-size: large;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: rgb(46, 180, 233);
+     color: white;
+}
+@media  (max-width:443px){
+    button{
+        width: 75%;
+    }
+    
+}
+button:hover{
+  cursor: pointer;
+}
+ 

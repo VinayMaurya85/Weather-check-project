@@ -1,0 +1,18 @@
+  
+ img{
+   margin-top: 17px;
+   width:  85%;
+   height: 300px;
+     
+   border-radius: 20px;
+     
+ }
+ @media(max-width:443px){
+  img{
+    height: 260px;
+    width: 100%;
+  }
+ }
+  
+    
+     

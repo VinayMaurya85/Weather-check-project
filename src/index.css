@@ -1,0 +1,26 @@
+ body{
+   display: flex;
+    justify-content: center;
+     background-color:  #1e3c72;
+ }
+ 
+ 
+ #root{
+ 
+ 
+    width: 700px;
+    background: rgba(255,255,255,0.15);
+          backdrop-filter: blur(15px);
+          border-radius: 20px;
+          padding: 30px;
+          color: white;
+    height: 750px;
+  
+  }
+  @media(max-width:443px){
+    #root{
+     margin-top:9%;
+    }
+  }
+   
+   

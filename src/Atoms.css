@@ -1,0 +1,52 @@
+.Atoms{
+     text-align: center;
+    
+    width: 85%;
+    height: 280px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color:rgb(87, 131, 184);
+}
+.flex{
+    display:  inline-block;
+    margin-right: 7% ;
+    margin-left: 9% ;
+    
+}   
+#sun{
+      color: yellow;
+      
+}
+#cold{
+      color: lightblue;
+      
+}
+
+#rain{
+      color: rgb(65, 201, 255);
+      
+}
+
+
+.suhani{
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    align-items: center;
+}
+ .uma{
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+ }
+ .subh{
+    display: flex;
+    justify-content: center;
+ }
+ @media(max-width:443px){
+    .Atoms{
+        width: 100%;
+    }
+
+ }
