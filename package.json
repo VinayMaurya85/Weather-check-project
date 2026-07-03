@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://VinayMaurya85.github.io/Weather-check-project",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
@@ -23,8 +24,9 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.69.0",
     "vite": "^8.1.0"
-  },
-  "homepage": "https://Weather-check-project.github.io/Weather-check-project"
+  } 
+   
 }
